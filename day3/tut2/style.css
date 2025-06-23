@@ -1,0 +1,14 @@
+p{
+    background-color: aquamarine;
+}
+a{
+    background-color: rgb(206, 151, 151);
+}
+div{
+    background-color: black;
+    color: white;
+}
+span{
+    color: red;
+    background-color: yellow;
+}

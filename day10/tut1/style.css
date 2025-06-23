@@ -1,0 +1,49 @@
+.logo img {
+    width: 164px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right ul {
+    display: flex;
+    gap: 34px;
+
+}
+
+.right ul li {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: grid;
+    margin: 10px;
+}
+.container{
+    display: grid;
+    display: flex;
+    justify-content: center;
+    /* grid-template: ; */
+    grid-template-areas:"header"
+                        "box box box" 
+                        "box box box"
+                        "box box box";
+} 
+.box{
+    margin: 10px;
+    /* padding-top: 10px; */
+    width: 170px;
+    height: 110px;
+    background-color: blue;
+}

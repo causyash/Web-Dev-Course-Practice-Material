@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Position Property (RECAP)</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            margin: 23px;
+            padding: 34px;
+            position: absolute;
+            border: solid black 7px;            
+        }
+        .box{
+            margin: 10px;
+            border: solid black 2px;
+            width: 90vw;
+            height: 190px;
+        }
+        .box1{
+            /* position:absolute ; */
+            /* top: -15px; */
+            /* left: 40px; */
+            background-color: red;
+            /* z-index: 2; */
+        }
+        .box2{
+            /* position: relative; */
+            /* z-index: 1; */
+            background-color: purple;
+        }
+        .box3{
+            bottom: 0px;
+            position: fixed;
+            background-color: aqua;
+        }
+        .box4{
+             background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1 box"></div>
+        <div class="box2 box"></div>
+        <div class="box3 box"></div>
+        <div class="box4 box"></div>
+        <div class="box4 box"></div>
+        <div class="box4 box"></div>
+    </div>
+</body>
+</html>

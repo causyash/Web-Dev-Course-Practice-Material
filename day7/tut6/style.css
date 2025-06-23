@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    position:absolute;
+    padding-bottom: 10px;
+}
+
+.nav{
+    position: sticky;
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    width: 100%;
+    padding-left: 20px;
+    background-color: rgb(39, 22, 22);
+    z-index: 10;
+}
+ul{ 
+    display: flex;
+    list-style: none;
+}
+a{
+    padding-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.frontimgs img:first-child{
+    width: 200px;
+    padding: 7px;
+}
+fron
+.frontimgs .mtimg img{
+    width: 20%;
+}
+.frontimgs{
+    top:-195px;
+    position: relative;
+    display: flex;
+}
+.page{
+    position: absolute;
+}
+.bgimg{
+    position: relative;
+}
+
