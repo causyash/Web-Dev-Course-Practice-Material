@@ -5,17 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Variables Recap</title>
     <style>
-        div:first-child{
-            background-color: red;
+        :root{
+            --color: rgb(113, 179, 176);
+            --seccolor: rgb(90, 107, 49);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: var(--color);
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            /* margin: 10px; */
+            padding: 20px;
+            list-style: none;
+        }
+        ul li:first-child{
+            --color: rgb(179, 190, 189);
+            background-color:var(--color);
+        }
+        .container{
+            background-color: rgba(144, 238, 144, 0.785);
         }
     </style>
 </head>
 <body>
-    <div>
+    <div class="nav">
         <ul>
             <li>Home</li>
             <li>About</li>
-            <li>Contack</li>
+            <li>Contact</li>
         </ul>
     </div>
     <div class="container">
